@@ -1,0 +1,112 @@
+/* GLOBAL DEFAULTS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3; 
+    color: #333;
+}
+
+
+  /* General structure /cardbox */
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Form Inputs  */
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+/* BUTTONS */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #d62828;   
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b71f1f;
+}
+
+/* outlined button (for index page) */
+.btn-outline {
+    background: transparent;
+    border: 2px solid #d62828;
+    color: #d62828;
+}
+
+.btn-outline:hover {
+    background: #d62828;
+    color: white;
+}
+
+/*  Welcome landing page for index.html */
+.main {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.main h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.main p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.main-buttons a {
+    text-decoration: none;
+    width: 150px;
+}
+
+/* ERROR / SUCCESS text message responses */
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+.success {
+    color: green;
+    font-size: 13px;
+}
