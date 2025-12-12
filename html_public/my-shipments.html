@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CargoEase – My Shipments</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="shipments-bg">
+
+    <div class="shipments-container">
+
+        <h2 class="shipments-title">My Shipments</h2>
+
+        <!-- Filter Buttons -->
+        <div class="shipments-filter">
+            <button id="filterSending" class="filter-btn active-filter">Sending</button>
+            <button id="filterReceiving" class="filter-btn">Receiving</button>
+        </div>
+
+        <!-- Where shipment cards will be inserted -->
+        <div id="shipmentsList" class="shipments-list">
+            <!-- JS will fill this dynamically -->
+        </div>
+
+        <a href="home.html" class="back-link">← Back to Dashboard</a>
+
+    </div>
+
+</div>
+
+<script src="../js/my_shipments.js"></script>
+</body>
+</html>

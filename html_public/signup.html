@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up – CargoEase</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- fullscreen background image -->
+    <div class="auth-bg">
+
+        <!-- WHITE CARD IN CENTER -->
+        <div class="auth-card">
+
+            <h2>Create Your Account</h2>
+
+            <form id="signupForm">
+
+                <div class="input-group">
+                    <label>Name</label>
+                    <input type="text" id="name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" id="password" required>
+                </div>
+
+                
+                <div class="input-group">
+                    <label>Confirm Password</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+
+
+                <button type="submit">Sign Up</button>
+
+                <p class="auth-footer">
+                    Already have an account?
+                    <a href="login.html">Login here</a>
+                </p>
+
+                <p id="signupMessage" class="error"></p>
+
+            </form>
+
+        </div>
+    </div>
+
+    <script src="../js/signup.js"></script>
+</body>
+</html>

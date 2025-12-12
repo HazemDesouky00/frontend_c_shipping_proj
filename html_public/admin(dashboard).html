@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CargoEase – Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard-bg">
+
+    <div class="dashboard-container">
+
+        <!-- Admin Header -->
+        <div class="dashboard-header">
+            <h2 id="adminWelcome">Admin Dashboard</h2>
+            <p>Manage all shipments and oversee system activity.</p>
+        </div>
+
+        <!-- Admin Tools -->
+        <div class="dashboard-grid">
+
+            <div class="dashboard-card" onclick="window.location.href='admin-shipment.html'">
+                <h3>Manage Shipments</h3>
+                <p>View, update, approve or reject shipments.</p>
+            </div>
+
+            <div class="dashboard-card" onclick="logoutAdmin()">
+                <h3>Logout</h3>
+                <p>Sign out of your admin account.</p>
+            </div>
+
+        </div>
+    </div>
+
+</div> <!-- dashboard-bg -->
+
+<script src="../js/admin.js"></script>
+</body>
+</html>

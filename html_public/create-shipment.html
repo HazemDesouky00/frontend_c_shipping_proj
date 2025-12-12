@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Shipment – CargoEase</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="create-ship-bg">
+
+    <div class="create-ship-card">
+
+        <h2>Create Shipment</h2>
+
+        <label>Receiver User ID</label>
+        <input type="text" id="receiverId" placeholder="Enter receiver's user ID">
+
+        <label>Origin Country</label>
+        <input type="text" id="originCountry" placeholder="Enter origin country">
+
+        <label>Destination Country</label>
+        <input type="text" id="destinationCountry" placeholder="Enter destination country">
+
+        <label>Weight (kg)</label>
+        <input type="number" id="weight" placeholder="Enter weight">
+
+        <label>Package Size</label>
+        <select id="size">
+            <option value="">Choose size</option>
+            <option value="SMALL">Small</option>
+            <option value="MEDIUM">Medium</option>
+            <option value="LARGE">Large</option>
+        </select>
+
+        <label>Delivery Type</label>
+        <select id="deliveryType">
+            <option value="">Choose type</option>
+            <option value="STANDARD">Standard</option>
+            <option value="EXPRESS">Express</option>
+        </select>
+
+        <button id="createShipmentBtn" class="create-ship-btn">Create Shipment</button>
+
+        <p class="error" id="errorMsg"></p>
+        <p class="success" id="successMsg"></p>
+
+        <a href="home.html" class="back-link">← Back to Dashboard</a>
+
+    </div>
+
+</div>
+
+<script src="../js/create_shipment.js"></script>
+
+</body>
+</html>

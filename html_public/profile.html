@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CargoEase – Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="auth-bg">  <!-- background image, reused from login & signup -->
+
+    <div class="form-card" style="max-width: 420px;">
+
+        <h2>My Profile</h2>
+
+        <!-- Name -->
+        <div class="input-group">
+            <label for="profileName">Name</label>
+            <input type="text" id="profileName" placeholder="Your name">
+        </div>
+
+        <!-- Email -->
+        <div class="input-group">
+            <label for="profileEmail">Email</label>
+            <input type="email" id="profileEmail" placeholder="Your email">
+        </div>
+
+        <!-- Password -->
+        <div class="input-group">
+            <label for="profilePassword">New Password (optional)</label>
+            <input type="password" id="profilePassword" placeholder="Enter a new password">
+        </div>
+
+        <button id="updateProfileBtn">Save Changes</button>
+
+        <p class="error" id="profileError"></p>
+        <p class="success" id="profileSuccess"></p>
+
+        <div class="auth-footer">
+            <a href="home.html">← Back to Dashboard</a>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../js/profile.js"></script>
+</body>
+</html>

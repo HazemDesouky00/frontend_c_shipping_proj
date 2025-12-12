@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Shipment – CargoEase</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="track-bg">
+
+    <div class="track-card">
+
+        <h2>Track Shipment</h2>
+        <p>Enter a tracking number to view your shipment status.</p>
+
+        <label>Tracking Number</label>
+        <input type="text" id="trackingInput" placeholder="Enter tracking number">
+
+        <button id="trackBtn">Track</button>
+
+        <!-- Message output (success or error) -->
+        <p id="trackError" class="error"></p>
+
+        <!-- Result Box -->
+        <div id="resultBox" class="track-result hidden">
+            <h3>Shipment Details</h3>
+
+            <p><strong>Status:</strong> <span id="statusText"></span></p>
+            <p><strong>Origin:</strong> <span id="originText"></span></p>
+            <p><strong>Destination:</strong> <span id="destinationText"></span></p>
+            <p><strong>Weight:</strong> <span id="weightText"></span> kg</p>
+            <p><strong>Last Update:</strong> <span id="updatedAtText"></span></p>
+        </div>
+
+        <a href="home.html" class="back-link">← Back to Dashboard</a>
+
+    </div>
+
+</div>
+
+<script src="../js/track_shipment.js"></script>
+</body>
+</html>
