@@ -73,6 +73,115 @@ button:hover {
 }
 
 /*  Welcome landing page for index.html */
+
+.main {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Orange title box */
+.title-box {
+    background: #fce8d8; /* soft orange */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #e0e0e0;
+    
+}
+
+.title-box h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #b71f1f; /* deep red */
+    
+}
+
+/* Grey description box */
+.desc-box {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 2px solid #e0e0e0;
+}
+
+/* Buttons left aligned */
+.main-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.main-buttons a {
+    text-decoration: none;
+    width: 150px;
+}
+
+
+/* Two-column layout for the welcome page */
+.main-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+/* LEFT side boxes  (title + desc + buttons) */
+.main-left {
+    flex: 1.2;
+}
+
+/* RIGHT side for (image) */
+.main-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.main-right img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+
+
+/* ERROR / SUCCESS text message responses */
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+.success {
+    color: green;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .main {
     text-align: center;
     padding: 60px 20px;
@@ -99,14 +208,5 @@ button:hover {
     text-decoration: none;
     width: 150px;
 }
+/*
 
-/* ERROR / SUCCESS text message responses */
-.error {
-    color: red;
-    font-size: 13px;
-}
-
-.success {
-    color: green;
-    font-size: 13px;
-}
