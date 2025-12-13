@@ -87,11 +87,11 @@ Welcome LANDING PAGE for index.html
 
 /* Orange title box */
 .title-box {
-    background: #fce8d8; /* soft orange */
+    /*background: #ffffff;  /*soft orange */
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    border: 2px solid #e0e0e0;
+    border: 0px solid #e0e0e0;
     
 }
 
@@ -104,14 +104,15 @@ Welcome LANDING PAGE for index.html
 
 /* Grey description box */
 .desc-box {
-    background: #f4f4f4;
+    /*background: #f4f4f4;*/
+    color:white;
     padding: 20px;
-    border-radius: 8px;
+    /*border-radius: 8px;*/
     margin-bottom: 25px;
     font-size: 16px;
     line-height: 1.5;
-    border: 2px solid #e0e0e0;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    border: 0px solid #e0e0e0;
+    /*box-shadow: 0 8px 10px rgba(0,0,0,0.15);*/
 }
 
 /* Buttons left aligned */
@@ -129,13 +130,13 @@ Welcome LANDING PAGE for index.html
 
 /* Background for Welcome Page */
 .welcome-background {
-    background: url("../images/PnO2_sky.jpg") no-repeat center center/cover;
+    background: url("../images/welcome_background.png") no-repeat center center/cover;
     min-height: 100vh;
     width: 100%;
     padding-top: 40px; /* pushes content down a bit */
 }
 
-/* Two-column layout for the welcome page */
+/* Two column layout for the welcome page */
 .main-row {
     display: flex;
     justify-content: center;
@@ -165,7 +166,7 @@ Welcome LANDING PAGE for index.html
     width: 100%;
     max-width: 420px;
     border-radius: 10px;
-    border: 2px solid #ccc;
+    border: 0.5px solid #ccc;
 }       
 
 /* ERROR / SUCCESS text message responses */

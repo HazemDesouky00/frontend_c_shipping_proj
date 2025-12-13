@@ -1,7 +1,6 @@
 
 //  home.js for User Dashboard
 
-/*
 // 1. reading token 
 const token = localStorage.getItem("token");
 
@@ -57,4 +56,3 @@ function logoutUser() {
 }
 
 window.logoutUser = logoutUser; // make it callable from home.html
-*/
