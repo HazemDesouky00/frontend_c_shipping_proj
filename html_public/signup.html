@@ -9,11 +9,9 @@
 </head>
 
 <body>
-
-    <!-- fullscreen background image -->
+     <!-- fullscreen background image -->
     <div class="auth-bg">
-
-        <!-- WHITE CARD IN CENTER -->
+        <!-- White card in the centre  -->
         <div class="auth-card">
 
             <h2>Create Your Account</h2>
@@ -23,24 +21,26 @@
                 <div class="input-group">
                     <label>Name</label>
                     <input type="text" id="name" required>
+                    <p class="error-text" id="nameErr"></p>
                 </div>
 
                 <div class="input-group">
                     <label>Email</label>
                     <input type="email" id="email" required>
+                    <p class="error-text" id="emailErr"></p>
                 </div>
 
                 <div class="input-group">
                     <label>Password</label>
                     <input type="password" id="password" required>
+                    <p class="error-text" id="passwordErr"></p>
                 </div>
 
-                
                 <div class="input-group">
                     <label>Confirm Password</label>
                     <input type="password" id="confirmPassword" required>
+                    <p class="error-text" id="confirmPassErr"></p>
                 </div>
-
 
                 <button type="submit">Sign Up</button>
 
@@ -59,3 +59,4 @@
     <script src="../js/signup.js"></script>
 </body>
 </html>
+
